@@ -1,0 +1,17 @@
+{
+  "name": "abdullh_portifolio",
+  "version": "1.0.0",
+  "description": "MY Portifolio",
+  "main": "index.js",
+  "homepage": "",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Abdullh Designer",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.2"
+  }
+}
